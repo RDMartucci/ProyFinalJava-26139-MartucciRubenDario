@@ -1,6 +1,8 @@
+# Proyecto BackEnd con Java y Spring Boot
+
 # 📚 API Artículos
 
-API REST desarrollada con Spring Boot para la gestión de artículos. Proyecto educativo de la carrera TalentoTech.
+API REST desarrollada en Java y con Spring Boot para la gestión de artículos. Proyecto educativo de la carrera TalentoTech.
 
 ## 🎯 Descripción del Proyecto
 
@@ -371,34 +373,3 @@ Asegúrate de que `application.properties` tiene:
 ```properties
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ```
-
-## 📖 Recursos Útiles
-
-- [Documentación Spring Boot](https://spring.io/projects/spring-boot)
-- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
-- [REST API Best Practices](https://restfulapi.net/)
-
-## 👥 Contribución
-
-Para contribuir al proyecto:
-
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-## ✏️ Autor
-
-**Proyecto TalentoTech** - Bootcamp BackEnd Java 2026
-
----
-
-**Última actualización:** 2026-06-26
-
-¿Preguntas o sugerencias? Abre un [issue](https://github.com/tu-usuario/ApiArticulos/issues) en el repositorio.
