@@ -11,17 +11,15 @@ public class Articulo {
 
     private String nombre;
     private Double precio;
-    private String imagen;
     
     // Constructor vacío
     public Articulo() {
     }
 
     // Constructor con parámetros
-    public Articulo(String nombre, Double precio, String imagen) {
+    public Articulo(String nombre, Double precio) {
         this.nombre = nombre;
         this.precio = precio;
-        this.imagen = imagen;
     }
 
     // Getters y Setters
@@ -41,15 +39,7 @@ public class Articulo {
         this.nombre = nombre;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public Double getPrecio() {
+     public Double getPrecio() {
         return precio;
     }
 
