@@ -258,37 +258,6 @@ CREATE TABLE articulo (
 );
 ```
 
-## 🧪 Pruebas
-
-Ejecutar los tests de la aplicación:
-
-```bash
-mvn test
-```
-
-## 📝 Ejemplo de Uso con cURL
-
-```bash
-# Listar artículos
-curl -X GET http://localhost:8080/api/articulos
-
-# Crear artículo
-curl -X POST http://localhost:8080/api/articulos \
-  -H "Content-Type: application/json" \
-  -d '{"nombre":"Monitor LG","descripcion":"Monitor 27 pulgadas","precio":299.99,"cantidad":10}'
-
-# Obtener por ID
-curl -X GET http://localhost:8080/api/articulos/1
-
-# Actualizar
-curl -X PUT http://localhost:8080/api/articulos/1 \
-  -H "Content-Type: application/json" \
-  -d '{"nombre":"Monitor LG Ultra","descripcion":"Monitor 27 pulgadas actualizado","precio":349.99,"cantidad":8}'
-
-# Eliminar
-curl -X DELETE http://localhost:8080/api/articulos/1
-```
-
 ## 🌐 CORS (Cross-Origin Resource Sharing)
 
 La API tiene CORS habilitado para aceptar solicitudes desde cualquier origen:
